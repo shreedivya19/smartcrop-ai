@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- App Title -->
+    <title>CropAI</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/cropai-logo.png" type="image/png" />
+
+
+    <!-- Meta SEO (Optional but recommended) -->
+    <meta name="description" content="CropAI – Smart agriculture assistant providing crop recommendations, weather insights, and farming intelligence." />
+    <meta name="keywords" content="CropAI, agriculture, crop prediction, farming, weather, AI, irrigation, smart farming" />
+    <meta name="author" content="Shree Divya" />
+  </head>
+
+  <body>
+    <!-- React root -->
+    <div id="root"></div>
+
+    <!-- Main React Script -->
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Zapier Chatbot (Popup widget) -->
+    <script async type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+<zapier-interfaces-chatbot-embed is-popup='true' chatbot-id='cmj8qwora001v4og7g3n8s56q'></zapier-interfaces-chatbot-embed>
+    <!-- Zapier Chatbot popup (bottom-right) -->
+<!-- Zapier Chatbot -->
+<div style="
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+">
+  <zapier-interfaces-chatbot-embed 
+    is-popup="true"
+    chatbot-id="cmhyaojlr0015ondc24fivika">
+  </zapier-interfaces-chatbot-embed>
+</div>
+  </body>
+</html>
+

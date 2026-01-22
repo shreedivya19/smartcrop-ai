@@ -1,0 +1,275 @@
+{
+  "nav": {
+    "home": "ಮುಖ್ಯಪುಟ",
+    "dashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "crops": "ಬೆಳೆಗಳು",
+    "forecast": "ಭವಿಷ್ಯವಾಣಿ",
+    "recommendations": "ಶಿಫಾರಸುಗಳು",
+    "login": "ಲಾಗಿನ್",
+    "signup": "ಖಾತೆ ತೆರೆಯಿರಿ",
+    "search": "ಹುಡುಕಾಟ"
+  },
+
+  "home": {
+    "heroTitle": "CropAI - AI ಚಾಲಿತ ಕೃಷಿ ವೇದಿಕೆ",
+    "heroSubtitle": "ಬೆಳೆ ಬೇಡಿಕೆ, ಮಿತಿಮೀರಿದ ಪೂರೈಕೆ ತಡೆ ಮತ್ತು ನಿಮ್ಮ ಆದಾಯ ಹೆಚ್ಚಿಸಲು AI ಬಳಸಿ",
+    "searchPlaceholder": "ನಿಮ್ಮ ಬೆಳೆ ಹುಡುಕಿ…",
+
+    "statsFarmers": "ಸಕ್ರಿಯ ರೈತರು",
+    "statsCrops": "ವಿಶ್ಲೇಷಿಸಿದ ಬೆಳೆಗಳು",
+    "statsAccuracy": "ಮುನ್ನೋಟಗಳ ನಿಖರತೆ",
+    "statsSavings": "ಸರಾಸರಿ ಉಳಿತಾಯ",
+
+    "whyTitle": "ಏಕೆ CropAI?",
+    "whySubtitle": "AI ಶಕ್ತಿಯ ಕೃಷಿ ಅಂತರದೃಷ್ಟಿಯೊಂದಿಗೆ ಚಿಂತಿತ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು ಇದು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+
+    "featureDemandTitle": "ಬೇಡಿಕೆ ಮುನ್ನೋಟ",
+    "featureDemandText": "ಮಾರುಕಟ್ಟೆ ಪ್ರವೃತ್ತಿಗಳು ಮತ್ತು ಹಂಗಾಮಿ ಮಾದರಿಗಳ ಆಧಾರಿತ ಬೇಡಿಕೆ ಪತ್ತೆ.",
+
+    "featureGlutTitle": "ಹೆಚ್ಚು ಪೂರೈಕೆ ತಡೆ",
+    "featureGlutText": "ಮಿತಿಮೀರಿದ ಕೃಷಿ ಉತ್ಪಾದನೆ ತಡೆಗಟ್ಟಲು ಸ್ಮಾರ್ಟ್ ಶಿಫಾರಸುಗಳು.",
+
+    "featureMarketTitle": "ಮಾರುಕಟ್ಟೆ ಮಾಹಿತಿ",
+    "featureMarketText": "ನೈಜ-ಕಾಲದ ಬೆಲೆಗಳು, ಬೇಡಿಕೆ ಸೂಚನೆಗಳು ಮತ್ತು ಮಾರಾಟ ಸಲಹೆಗಳು.",
+
+    "featureDistributionTitle": "ವಿತರಣೆ ಮಾರ್ಗದರ್ಶಿ",
+    "featureDistributionText": "ಅತ್ಯಂತ ಲಾಭದಾಯಕ ಮಾರಾಟ ಸ್ಥಳ ಮತ್ತು ಸಮಯದ ಕುರಿತು ಮಾರ್ಗದರ್ಶನ.",
+
+    "ctaTitle": "ನಿಮ್ಮ ಕೃಷಿಯನ್ನು ಬದಲಾಯಿಸಲು ಸಿದ್ಧವೇ?",
+    "ctaSubtitle": "AI ಬಳಸಿ ಲಾಭ ಹೆಚ್ಚಿಸಿಕೊಳ್ಳುತ್ತಿರುವ ಸಾವಿರಾರು ರೈತರೊಂದಿಗೆ ಸೇರಿ",
+    "ctaButton": "🚀 ಇಂದೇ ಪ್ರಾರಂಭಿಸಿ"
+  },
+
+  "dashboard": {
+    "title": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "subtitle": "ಬೆಳೆಗಳು, ಬೆಲೆ ಮತ್ತು ಬೇಡಿಕೆಯ ವೇಗದ ಅವಲೋಕನ.",
+    "loginRequired": "ವೈಯಕ್ತಿಕ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ನೋಡಲು ದಯವಿಟ್ಟು ಲಾಗಿನ್ ಮಾಡಿ.",
+    "invalidToken": "ಅನಧಿಕೃತ — ಟೋಕನ್ ಅಮಾನ್ಯವಾಗಿದೆ ಅಥವಾ ಅವಧಿ ಮುಗಿದಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಲಾಗಿನ್ ಮಾಡಿ.",
+    "backendError": "ಬ್ಯಾಕ್‌ಎಂಡ್‌ಗೆ ಸಂಪರ್ಕದಲ್ಲಿ ದೋಷ.",
+    "loggedInAs": "ಲಾಗಿನ್ ಆಗಿರುವ ಬಳಕೆದಾರ ",
+    "totalCrops": "ಒಟ್ಟು ಬೆಳೆಗಳು",
+    "avgPrice": "ಸರಾಸರಿ ಬೆಲೆ",
+    "topCrop": "ಅತ್ಯಂತ ಬೇಡಿಕೆಯ ಬೆಳೆ",
+    "chartPrice": "ಸರಾಸರಿ ಬೆಲೆ (₹)",
+    "chartDemand": "ಸರಾಸರಿ ಬೇಡಿಕೆ (%)",
+    "priceTrend": "ವರ್ಗವಾಗಿಸಿದ ಬೆಲೆ ಪ್ರವೃತ್ತಿ",
+    "demandTrend": "ವರ್ಗವಾಗಿಸಿದ ಬೇಡಿಕೆ ಪ್ರಮಾಣ",
+    "tip": "ಸೂಚನೆ: ಬೆಳೆಗಳ ಪುಟ ತೆರೆಯಿರಿ ಮತ್ತು ಯಾವುದೇ ಬೆಳೆಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ — ವಿವರವಾದ ವರದಿಯನ್ನು ನೋಡಬಹುದು."
+  },
+
+  "crops": {
+    "title": "ಕರ್ನಾಟಕದ ಬೆಳೆಗಳು",
+    "subtitle": "ಜಿಲ್ಲೆ, ವರ್ಗ ಮತ್ತು ಬೆಲೆಯ ಮೂಲಕ ಬೆಳೆಗಳ ಮಾಹಿತಿ ತಿಳಿಯಿರಿ.",
+    "searchPlaceholder": "ಬೆಳೆ ಹುಡುಕಿ…",
+    "filterDistrict": "ಜಿಲ್ಲೆ",
+    "filterCategory": "ವರ್ಗ",
+    "filterSort": "ವಿಂಗಡಣೆ",
+    "sortPriceLowHigh": "ಬೆಲೆ: ಕಡಿಮೆ → ಹೆಚ್ಚು",
+    "sortPriceHighLow": "ಬೆಲೆ: ಹೆಚ್ಚು → ಕಡಿಮೆ",
+    "sortDemandLowHigh": "ಬೇಡಿಕೆ: ಕಡಿಮೆ → ಹೆಚ್ಚು",
+    "sortDemandHighLow": "ಬೇಡಿಕೆ: ಹೆಚ್ಚು → ಕಡಿಮೆ",
+    "districts": "ಜಿಲ್ಲೆಗಳು",
+    "price": "ಬೆಲೆ",
+    "demand": "ಬೇಡಿಕೆ",
+    "viewDetails": "ವಿವರ ನೋಡಿ"
+  },
+
+  "districts": {
+    "Bagalkot": "ಬಾಗಲಕೋಟೆ",
+    "Ballari": "ಬಳ್ಳಾರಿ",
+    "Belagavi": "ಬೆಳಗಾವಿ",
+    "Bengaluru Rural": "ಬೆಂಗಳೂರು ಗ್ರಾಮಾಂತರ",
+    "Bengaluru Urban": "ಬೆಂಗಳೂರು ನಗರ",
+    "Bidar": "ಬೀದರ್",
+    "Chamarajanagar": "ಚಾಮರಾಜನಗರ",
+    "Chikkaballapur": "ಚಿಕ್ಕಬಳ್ಳಾಪುರ",
+    "Chikkamagaluru": "ಚಿಕ್ಕಮಗಳೂರು",
+    "Chitradurga": "ಚಿತ್ರದುರ್ಗ",
+    "Dakshina Kannada": "ದಕ್ಷಿಣ ಕನ್ನಡ",
+    "Davangere": "ದಾವಣಗೆರೆ",
+    "Dharwad": "ಧಾರವಾಡ",
+    "Gadag": "ಗದಗ",
+    "Hassan": "ಹಾಸನ",
+    "Haveri": "ಹಾವೇರಿ",
+    "Kalaburagi": "ಕಲಬುರ್ಗಿ",
+    "Kodagu": "ಕೊಡಗು",
+    "Kolar": "ಕೋಲಾರ",
+    "Koppal": "ಕೋಪ್ಪಳ",
+    "Mandya": "ಮಂಡ್ಯ",
+    "Mysuru": "ಮೈಸೂರು",
+    "Raichur": "ರಾಯಚೂರು",
+    "Ramanagara": "ರಾಮನಗರ",
+    "Shivamogga": "ಶಿವಮೊಗ್ಗ",
+    "Tumakuru": "ತುಮಕೂರು",
+    "Udupi": "ಉಡುಪಿ",
+    "Uttara Kannada": "ಉತ್ತರ ಕನ್ನಡ",
+    "Vijayanagara": "ವಿಜಯನಗರ",
+    "Vijayapura": "ವಿಜಯಪುರ",
+    "Yadgir": "ಯಾದಗಿರಿ"
+  },
+
+  "cropDetails": {
+    "grownInPrefix": "ಬೆಳೆ ಬೆಳೆದಿರುವ ಜಿಲ್ಲೆಗಳು:",
+    "backButton": "ಬೆಳೆಗಳಿಗೆ ಹಿಂತಿರುಗಿ",
+    "currentPrice": "ಪ್ರಸ್ತುತ ಬೆಲೆ",
+    "demandIndex": "ಬೇಡಿಕೆ ಸೂಚ್ಯಂಕ",
+    "priceForecastTitle": "ಬೆಲೆ ಮುನ್ನೋಟ",
+    "daysSuffix": "ದಿನಗಳು",
+    "summaryTitle": "ಬೆಳೆ ಸಂಕ್ಷಿಪ್ತ ಮಾಹಿತಿ",
+    "categoryLabel": "ವರ್ಗ",
+    "primaryDistrict": "ಮುಖ್ಯ ಜಿಲ್ಲೆ",
+    "yieldPotential": "ಉತ್ಪಾದನಾ ಶಕ್ತಿ",
+    "recommendedActions": "ಶಿಫಾರಸಾದ ಕ್ರಮಗಳು",
+    "similarTitle": "ಸಮಾನ ಬೆಳೆಗಳು (ವರ್ಗದ ಆಧಾರದಲ್ಲಿ)",
+    "viewDetails": "ವಿವರಗಳನ್ನು ನೋಡಿ",
+    "yAxisPrice": "ಬೆಲೆ (₹/ಕಿಂಟಾಲ್)",
+    "xAxisDate": "ದಿನಾಂಕ",
+    "recommendedActionsText": "ಸಮತೋಲಿತ NPK ಬಳಸಿ, ಪ್ರಮುಖ ಹಂತಗಳಲ್ಲಿ ನೀರಾವರಿ ವೇಳಾಪಟ್ಟಿ ಮಾಡಿ, ಕೀಟಗಳನ್ನು ಗಮನಿಸಿ."
+  },
+
+  "category": {
+    "Plantation": "ತೋಟ ಬೆಳೆಗಳು",
+    "Fruits": "ಹಣ್ಣುಗಳು",
+    "Cereals": "ಧಾನ್ಯ ಬೆಳೆಗಳು",
+    "Vegetables": "ತರಕಾರಿಗಳು",
+    "Pulses": "ಕಾಳು ಬೆಳೆಗಳು",
+    "Commercial": "ವಾಣಿಜ್ಯ ಬೆಳೆಗಳು",
+    "Oilseeds": "ಎಣ್ಣೆಗಿಡ ಬೆಳೆಗಳು"
+  },
+
+  "yield": {
+    "High": "ಉನ್ನತ",
+    "Medium": "ಮಧ್ಯಮ",
+    "Very High": "ಅತ್ಯಂತ ಉನ್ನತ",
+    "Low": "ಕಡಿಮೆ"
+  },
+
+  "forecast": {
+    "title": "ಸ್ಮಾರ್ಟ್ ಬೆಳೆ ಭವಿಷ್ಯವಾಣಿ",
+    "subtitle": "AI ಬಳಸಿ ಬೆಳೆ ಉತ್ಪಾದನೆ ಮತ್ತು ಬೆಲೆ ಮುನ್ನೋಟ.",
+    "selectDistrict": "ಜಿಲ್ಲೆ ಆಯ್ಕೆ",
+    "selectCrop": "ಬೆಳೆ ಆಯ್ಕೆ",
+    "selectHorizon": "ಕಾಲಾವಧಿ",
+    "horizon7": "ಮುಂದಿನ 7 ದಿನಗಳು",
+    "horizon14": "ಮುಂದಿನ 14 ದಿನಗಳು",
+    "horizon30": "ಮುಂದಿನ 30 ದಿನಗಳು",
+    "button": "ಭವಿಷ್ಯವಾಣಿ ನೋಡಿ",
+    "weatherTitle": "ಹವಾಮಾನ",
+    "temp": "ತಾಪಮಾನ",
+    "humidity": "ಆದ್ರತೆ",
+    "wind": "ಗಾಳಿ",
+    "condition": "ಸ್ಥಿತಿ",
+    "graphTitle": "ಬೆಲೆ ಮುನ್ನೋಟ",
+    "graphCurve": "ಮುನ್ನೋಟ ರೇಖೆ",
+    "graphCropForDistrict": "{{district}} ಜಿಲ್ಲೆಯ {{crop}} ಮುನ್ನೋಟ",
+    "axisPrice": "ಬೆಲೆ (₹/ಕಿಂಟಾಲ್)",
+    "axisDate": "ದಿನಾಂಕ"
+  },
+
+  "recommendations": {
+    "title": "ಸ್ಮಾರ್ಟ್ ಬೆಳೆ ಶಿಫಾರಸು",
+    "subtitle": "ಮಣ್ಣು ಮತ್ತು ವಾತಾವರಣದ ಮಾಹಿತಿ ನಮೂದಿಸಿ AI ಆಧಾರಿತ ಬೆಳೆ ಸಲಹೆ ಪಡೆಯಿರಿ.",
+    "fertilizerAdvice": "ರಸಗೊಬ್ಬರ ಸಲಹೆ",
+      
+
+    "form": {
+      "districtLabel": "ಜಿಲ್ಲೆ",
+      "districtPlaceholder": "ಜಿಲ್ಲೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+      "temperatureLabel": "ತಾಪಮಾನ (°C)",
+      "temperaturePlaceholder": "ತಾಪಮಾನ ನಮೂದಿಸಿ",
+      "humidityLabel": "ಆರ್ದ್ರತೆ (%)",
+      "humidityPlaceholder": "ಆರ್ದ್ರತೆ ನಮೂದಿಸಿ",
+      "rainfallLabel": "ವರ್ಷಾ ಪ್ರಮಾಣ (mm)",
+      "rainfallPlaceholder": "ವರ್ಷಾ ಪ್ರಮಾಣ ನಮೂದಿಸಿ",
+      "phLabel": "ಮಣ್ಣಿನ pH",
+      "phPlaceholder": "pH ನಮೂದಿಸಿ",
+      "nitrogenLabel": "ನೈಟ್ರೋಜನ್ (N)",
+      "nitrogenPlaceholder": "N ಮಟ್ಟ ನಮೂದಿಸಿ",
+      "phosphorusLabel": "ಫಾಸ್ಫರಸ್ (P)",
+      "phosphorusPlaceholder": "P ಮಟ್ಟ ನಮೂದಿಸಿ",
+      "potassiumLabel": "ಪೊಟ್ಯಾಷಿಯಂ (K)",
+      "potassiumPlaceholder": "K ಮಟ್ಟ ನಮೂದಿಸಿ",
+      "button": "ಶಿಫಾರಸು ಪಡೆಯಿರಿ"
+    },
+
+    "water": {
+      "title": "ನೀರಿನ ಲಭ್ಯತೆಯ ವರದಿ",
+      "rainfall": "ವರ್ಷಾ ಪ್ರಮಾಣ",
+      "humidity": "ಆದ್ರತೆ",
+      "temperature": "ತಾಪಮಾನ",
+      "evaporation": "ಆವೋಷ್ಣೀಕರಣ",
+      "netWater": "ಲಭ್ಯ ನೀರು",
+      "status": "ಸ್ಥಿತಿ"
+    },
+
+    "fertilizer": {
+    "soilPHLabel": "ಮಣ್ಣಿನ pH",
+    "npkLabel": "N, P, K ಮಟ್ಟ",
+    "approx": "ಸುಮಾರು",
+    "phAdviceLabel": "pH ಸಲಹೆ"
+  }
+},
+"fertilizer": {
+  "urea": {
+    "name": "ಯೂರಿಯಾ (46% N)",
+    "desc": "ಬೆಳವಣಿಗೆಯ ಹಂತಗಳಲ್ಲಿ ಹಂತ ಹಂತವಾಗಿ ಅನ್ವಯಿಸಿ"
+  },
+  "dap": {
+    "name": "ಡಿಎಪಿ (18-46-0)",
+    "desc": "ಮೂಲಾಭಿವೃದ್ಧಿಗಾಗಿ ಬಿತ್ತನೆಯ ಸಮಯದಲ್ಲಿ ಅನ್ವಯಿಸಿ"
+  },
+  "mop": {
+    "name": "ಎಂಒಪಿ (0-0-60)",
+    "desc": "ಹೂ ಬಿಡುವದಕ್ಕಿಂತ ಮುಂಚೆ ಅನ್ವಯಿಸಿ"
+  }
+},
+
+    "soil": {
+      "high": "ಉನ್ನತ",
+      "medium": "ಮಧ್ಯಮ",
+      "low": "ಕಡಿಮೆ"
+    },
+
+    "result": {
+      "title": "ನಿಮ್ಮ ಸ್ಮಾರ್ಟ್ ಶಿಫಾರಸು",
+      "recommendedCrop": "ಶಿಫಾರಸಾದ ಬೆಳೆ",
+      "expectedYield": "ಅಂದಾಜು ಉತ್ಪಾದನೆ",
+      "fertilizerAdvice": "ರಸಗೊಬ್ಬರ ಸಲಹೆ",
+      "waterAdvice": "ನೀರಾವರಿ ಸಲಹೆ"
+    },
+
+  "auth": {
+    "login": {
+      "title": "ಮತ್ತೆ ಸ್ವಾಗತ",
+      "subtitle": "ನಿಮ್ಮ ಹೊಲವನ್ನು ನಿರ್ವಹಿಸಲು ಲಾಗಿನ್ ಮಾಡಿ",
+      "email": "ಇಮೇಲ್ ವಿಳಾಸ",
+      "password": "ಗುಪ್ತಪದ",
+      "button": "ಲಾಗಿನ್",
+      "noAccount": "CropAIಗೆ ಹೊಸಬಾ?",
+      "signupLink": "ಹೊಸ ಖಾತೆ ತೆರೆಯಿರಿ"
+    },
+    "signup": {
+      "title": "ಹೊಸ ಖಾತೆ ಸೃಷ್ಟಿಸಿ",
+      "subtitle": "ಇಂದೇ ನಿಮ್ಮ ಹೊಲವನ್ನು ಡಿಜಿಟಲ್ ಮಾಡಿ",
+      "fullName": "ಪೂರ್ಣ ಹೆಸರು",
+      "email": "ಇಮೇಲ್ ವಿಳಾಸ",
+      "farmName": "ಫಾರ್ಮ್ ಹೆಸರು",
+      "district": "ಸ್ಥಳ / ಜಿಲ್ಲೆ",
+      "password": "ಗುಪ್ತಪದ",
+      "confirmPassword": "ಗುಪ್ತಪದ ಮರು ನಮೂದಿಸಿ",
+      "button": "ಖಾತೆ ಸೃಷ್ಟಿಸಿ",
+      "haveAccount": "ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯಾ?",
+      "loginLink": "ಲಾಗಿನ್"
+    }
+  },
+
+  "wizard": {
+    "headerTitle": "CropAI ಸಹಾಯಕ",
+    "stepLabel": "ಹಂತ {{step}} / 6",
+    "summaryTitle": "ನಿಮಗಾಗಿ ಸ್ಮಾರ್ಟ್ ಶಿಫಾರಸು",
+    "summaryBlockTitle": "ಶಿಫಾರಸಾದ ಬೆಳೆ",
+    "startAgain": "ಮತ್ತೆ ಪ್ರಾರಂಭಿಸಿ",
+    "buttonNext": "ಮುಂದೆ →",
+    "buttonShowRecommendation": "ಶಿಫಾರಸು ನೋಡಿ"
+  }
+}

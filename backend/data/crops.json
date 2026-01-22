@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Rice (Paddy)",
+    "districts": ["Mandya", "Mysuru", "Raichur", "Udupi", "Dakshina Kannada"],
+    "category": "Cereal",
+    "currentPrice": 2400,
+    "demandIndex": 82,
+    "quickStats": { "yieldPotential": "High", "climate": "Moist, Warm" }
+  },
+  {
+    "name": "Ragi (Finger Millet)",
+    "districts": ["Bengaluru Rural", "Kolar", "Tumakuru", "Ramanagara"],
+    "category": "Millet",
+    "currentPrice": 3200,
+    "demandIndex": 88,
+    "quickStats": { "yieldPotential": "Medium", "climate": "Drought-resistant" }
+  },
+  {
+    "name": "Jowar (Sorghum)",
+    "districts": ["Vijayapura", "Kalaburagi", "Yadgir"],
+    "category": "Millet",
+    "currentPrice": 2100,
+    "demandIndex": 74,
+    "quickStats": { "yieldPotential": "Medium", "climate": "Drought-tolerant" }
+  },
+  {
+    "name": "Maize",
+    "districts": ["Haveri", "Davanagere", "Chitradurga", "Belagavi"],
+    "category": "Cereal",
+    "currentPrice": 1950,
+    "demandIndex": 79,
+    "quickStats": { "yieldPotential": "High", "climate": "Semi-arid" }
+  },
+  {
+    "name": "Tur Dal (Pigeon Pea)",
+    "districts": ["Kalaburagi", "Yadgir", "Ballari"],
+    "category": "Pulse",
+    "currentPrice": 9200,
+    "demandIndex": 91,
+    "quickStats": { "yieldPotential": "Medium", "climate": "Dry regions" }
+  },
+  {
+    "name": "Groundnut",
+    "districts": ["Chitradurga", "Tumakuru", "Davanagere"],
+    "category": "Oilseed",
+    "currentPrice": 6200,
+    "demandIndex": 85,
+    "quickStats": { "yieldPotential": "High", "climate": "Dry, warm" }
+  },
+  {
+    "name": "Sunflower",
+    "districts": ["Vijayapura", "Haveri", "Bagalkot"],
+    "category": "Oilseed",
+    "currentPrice": 7200,
+    "demandIndex": 94,
+    "quickStats": { "yieldPotential": "Medium", "climate": "Semi-arid" }
+  },
+  {
+    "name": "Coffee",
+    "districts": ["Chikkamagaluru", "Kodagu", "Hassan"],
+    "category": "Plantation",
+    "currentPrice": 15000,
+    "demandIndex": 92,
+    "quickStats": { "yieldPotential": "High", "climate": "Cool, high rainfall" }
+  },
+  {
+    "name": "Sugarcane",
+    "districts": ["Mandya", "Belagavi", "Bagalkot"],
+    "category": "Cash Crop",
+    "currentPrice": 3500,
+    "demandIndex": 80,
+    "quickStats": { "yieldPotential": "Very High", "climate": "High water" }
+  },
+  {
+    "name": "Cotton",
+    "districts": ["Dharwad", "Haveri", "Gadag"],
+    "category": "Cash Crop",
+    "currentPrice": 6500,
+    "demandIndex": 77,
+    "quickStats": { "yieldPotential": "Medium", "climate": "Black soil regions" }
+  },
+  {
+    "name": "Arecanut",
+    "districts": ["Shivamogga", "Udupi", "Dakshina Kannada"],
+    "category": "Plantation",
+    "currentPrice": 52000,
+    "demandIndex": 95,
+    "quickStats": { "yieldPotential": "High", "climate": "Humid coastal" }
+  },
+  {
+    "name": "Coconut",
+    "districts": ["Tumakuru", "Udupi", "Bengaluru Rural", "Dakshina Kannada"],
+    "category": "Plantation",
+    "currentPrice": 3800,
+    "demandIndex": 85,
+    "quickStats": { "yieldPotential": "Medium", "climate": "Humid, coastal" }
+  }
+]

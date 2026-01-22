@@ -1,0 +1,252 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "crops": "Crops",
+    "forecast": "Forecast",
+    "recommendations": "Recommendations",
+    "login": "Login",
+    "signup": "Signup",
+    "search": "Search"
+  },
+
+  "home": {
+    "heroTitle": "CropAI - AI Powered Agriculture Platform",
+    "heroSubtitle": "Forecast crop demand, prevent gluts, and maximize your farming income",
+    "searchPlaceholder": "Search for your crop…",
+    "statsFarmers": "Active Farmers",
+    "statsCrops": "Crops Analyzed",
+    "statsAccuracy": "Prediction Accuracy",
+    "statsSavings": "Average Savings",
+    "whyTitle": "Why Choose CropAI?",
+    "whySubtitle": "Our platform uses AI with deep agricultural insight to help you make smarter farming decisions.",
+    "featureDemandTitle": "Demand Forecasting",
+    "featureDemandText": "AI-powered predictions using market signals, trends and seasonal patterns.",
+    "featureGlutTitle": "Glut Prevention",
+    "featureGlutText": "Smart recommendations to avoid oversupply and reduce crop waste.",
+    "featureMarketTitle": "Market Insights",
+    "featureMarketText": "Real-time crop pricing, demand indicators & smarter selling advice.",
+    "featureDistributionTitle": "Distribution Guide",
+    "featureDistributionText": "Know where and when to sell your crop for maximum profit.",
+    "ctaTitle": "Ready to Transform Your Farming?",
+    "ctaSubtitle": "Join thousands of farmers using AI to maximize their profits",
+    "ctaButton": "Get Started Now →"
+  },
+
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Quick overview of crops, prices and demand.",
+    "loginRequired": "Please log in to see your personalized dashboard.",
+    "invalidToken": "Unauthorized — token invalid or expired. Please log in again.",
+    "backendError": "Error connecting to backend.",
+    "loggedInAs": "Logged in as",
+    "totalCrops": "Total Crops",
+    "avgPrice": "Avg Price",
+    "topCrop": "Top Crop (Demand)",
+    "priceTrend": "Price Trend (by Category)",
+    "demandTrend": "Demand (average) by category",
+    "tip": "Tip: Open the Crops page and click on any crop to view detailed analytics."
+  },
+
+  "crops": {
+    "title": "Crops of Karnataka",
+    "subtitle": "Explore crops by district, category & price.",
+    "searchPlaceholder": "Search crops…",
+    "filterDistrict": "District",
+    "filterCategory": "Category",
+    "filterSort": "Sort",
+    "sortPriceLowHigh": "Price: Low → High",
+    "sortPriceHighLow": "Price: High → Low",
+    "sortDemandLowHigh": "Demand: Low → High",
+    "sortDemandHighLow": "Demand: High → Low",
+    "districts": "Districts",
+    "price": "Price",
+    "demand": "Demand",
+    "viewDetails": "View Details"
+  },
+
+  "districts": {
+    "Bagalkot": "Bagalkot",
+    "Ballari": "Ballari",
+    "Belagavi": "Belagavi",
+    "Bengaluru Rural": "Bengaluru Rural",
+    "Bengaluru Urban": "Bengaluru Urban",
+    "Bidar": "Bidar",
+    "Chamarajanagar": "Chamarajanagar",
+    "Chikkaballapur": "Chikkaballapur",
+    "Chikkamagaluru": "Chikkamagaluru",
+    "Chitradurga": "Chitradurga",
+    "Dakshina Kannada": "Dakshina Kannada",
+    "Davangere": "Davangere",
+    "Dharwad": "Dharwad",
+    "Gadag": "Gadag",
+    "Hassan": "Hassan",
+    "Haveri": "Haveri",
+    "Kalaburagi": "Kalaburagi",
+    "Kodagu": "Kodagu",
+    "Kolar": "Kolar",
+    "Koppal": "Koppal",
+    "Mandya": "Mandya",
+    "Mysuru": "Mysuru",
+    "Raichur": "Raichur",
+    "Ramanagara": "Ramanagara",
+    "Shivamogga": "Shivamogga",
+    "Tumakuru": "Tumakuru",
+    "Udupi": "Udupi",
+    "Uttara Kannada": "Uttara Kannada",
+    "Vijayanagara": "Vijayanagara",
+    "Vijayapura": "Vijayapura",
+    "Yadgir": "Yadgir"
+  },
+
+  "cropDetails": {
+    "grownInPrefix": "Grown in:",
+    "backButton": "Back to Crops",
+    "currentPrice": "Current price",
+    "demandIndex": "Demand index",
+    "priceForecastTitle": "Price Forecast",
+    "daysSuffix": "days",
+    "summaryTitle": "Crop Summary",
+    "categoryLabel": "Category",
+    "primaryDistrict": "Primary District",
+    "yieldPotential": "Yield potential",
+    "recommendedActions": "Recommended actions",
+    "similarTitle": "Similar crops (by category)",
+    "viewDetails": "View Details",
+    "yAxisPrice": "Price (₹/quintal)",
+    "xAxisDate": "Date",
+    "recommendedActionsText": "Use balanced NPK, schedule irrigations during critical stages, monitor pests."
+  },
+
+  "yield": {
+    "High": "High",
+    "Medium": "Medium",
+    "Very High": "Very High",
+    "Low": "Low"
+  },
+  "forecast": {
+  "title": "Smart Crop Forecast",
+  "subtitle": "AI-powered crop price & climate prediction.",
+  "selectDistrict": "Select District",
+  "selectCrop": "Select Crop",
+  "selectHorizon": "Select Forecast Range",
+  "horizon7": "Next 7 days",
+  "horizon14": "Next 14 days",
+  "horizon30": "Next 30 days",
+  "button": "Get Forecast",
+  "weatherTitle": "Weather",
+  "temp": "Temperature",
+  "humidity": "Humidity",
+  "wind": "Wind",
+  "condition": "Condition",
+  "graphCropForDistrict": "{{crop}} price forecast for {{district}}",
+   "graphTitle": "Price forecast graph",
+  "graphCurve": "Price",
+  "noDataMessage": "No forecast data available"
+},
+
+  "recommendations": {
+    "title": "Smart Crop Recommendation",
+    "subtitle": "Enter soil & climate parameters to get crop recommendations, water availability and fertilizer guidance.",
+    
+    "form": {
+      "districtLabel": "District",
+      "districtPlaceholder": "Select district",
+      "temperatureLabel": "Temperature (°C)",
+      "temperaturePlaceholder": "Enter temperature",
+      "humidityLabel": "Humidity (%)",
+      "humidityPlaceholder": "Enter humidity",
+      "rainfallLabel": "Rainfall (mm)",
+      "rainfallPlaceholder": "Enter rainfall",
+      "phLabel": "Soil pH",
+      "phPlaceholder": "Enter soil pH",
+      "nitrogenLabel": "Nitrogen (N)",
+      "nitrogenPlaceholder": "Enter nitrogen level",
+      "phosphorusLabel": "Phosphorus (P)",
+      "phosphorusPlaceholder": "Enter phosphorus level",
+      "potassiumLabel": "Potassium (K)",
+      "potassiumPlaceholder": "Enter potassium level",
+      "button": "Get Recommendation"
+    },
+
+    "water": {
+      "title": "Water Availability Report",
+      "rainfall": "Rainfall",
+      "humidity": "Humidity",
+      "temperature": "Temperature",
+      "evaporation": "Evapotranspiration",
+      "netWater": "Net Water Available",
+      "status": "Status"
+    },
+
+    "soil": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "fertilizer": {
+       "soilPHLabel": "Soil pH",
+       "npkLabel": "N, P, K levels",
+       "approx": "approx",
+       "phAdviceLabel": "pH advice"
+  }
+},
+"fertilizer": {
+  "urea": {
+    "name": "Urea (46% N)",
+    "desc": "Split application during growth stages"
+  },
+  "dap": {
+    "name": "DAP (18-46-0)",
+    "desc": "Apply at planting for root development"
+  },
+  "mop": {
+    "name": "MOP (0-0-60)",
+    "desc": "Apply before flowering"
+  }
+},
+
+    "result": {
+      "title": "Your Smart Recommendation",
+      "recommendedCrop": "Recommended Crop",
+      "expectedYield": "Expected Yield",
+      "fertilizerAdvice": "Fertilizer Advice",
+      "waterAdvice": "Water Advice"
+    },
+  
+
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to manage your farm",
+      "email": "Email Address",
+      "password": "Password",
+      "button": "Sign In",
+      "noAccount": "New to CropAI?",
+      "signupLink": "Create an account"
+    },
+    "signup": {
+      "title": "Create Account",
+      "subtitle": "Start managing your farm today",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "farmName": "Farm Name",
+      "district": "Location / District",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "button": "Create Account",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Login"
+    }
+  },
+
+  "wizard": {
+    "headerTitle": "CropAI Assistant",
+    "stepLabel": "Step {{step}} of 6",
+    "summaryTitle": "Your Smart Recommendation",
+    "summaryBlockTitle": "Recommended Crop",
+    "startAgain": "Start Again",
+    "buttonNext": "Next →",
+    "buttonShowRecommendation": "Show Recommendation"
+  }
+}

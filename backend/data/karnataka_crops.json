@@ -1,0 +1,91 @@
+{
+  "districts": [
+    { "name": "Bagalkote", "crops": ["Sugarcane", "Wheat", "Maize", "Groundnut", "Sunflower", "Cotton"] },
+    { "name": "Ballari", "crops": ["Paddy", "Maize", "Groundnut", "Cotton", "Chillies"] },
+    { "name": "Belagavi", "crops": ["Sugarcane", "Soybean", "Turmeric", "Maize", "Paddy"] },
+    { "name": "Bengaluru Rural", "crops": ["Ragi", "Paddy", "Vegetables", "Flowers", "Sericulture"] },
+    { "name": "Bengaluru Urban", "crops": ["Ragi", "Vegetables", "Flowers", "Millets"] },
+    { "name": "Bidar", "crops": ["Sugarcane", "Turmeric", "Paddy", "Sorghum", "Red Gram"] },
+    { "name": "Chamarajanagara", "crops": ["Turmeric", "Sugarcane", "Paddy", "Groundnut"] },
+    { "name": "Chikkaballapur", "crops": ["Millets", "Ragi", "Groundnut", "Vegetables"] },
+    { "name": "Chikkamagaluru", "crops": ["Coffee", "Arecanut", "Pepper", "Paddy", "Maize"] },
+    { "name": "Chitradurga", "crops": ["Ragi", "Groundnut", "Sunflower", "Pulses"] },
+    { "name": "Dakshina Kannada", "crops": ["Arecanut", "Coconut", "Paddy", "Pepper", "Banana"] },
+    { "name": "Davanagere", "crops": ["Rice", "Maize", "Cotton", "Groundnut"] },
+    { "name": "Dharwad", "crops": ["Cotton", "Chilli", "Maize", "Pulses", "Groundnut"] },
+    { "name": "Gadag", "crops": ["Groundnut", "Sunflower", "Cotton", "Wheat"] },
+    { "name": "Hassan", "crops": ["Coffee", "Black Pepper", "Paddy", "Arecanut"] },
+    { "name": "Haveri", "crops": ["Cotton", "Chilli", "Jowar", "Pulses"] },
+    { "name": "Kalaburagi", "crops": ["Turmeric", "Red Gram", "Cotton", "Groundnut"] },
+    { "name": "Kodagu", "crops": ["Coffee", "Cardamom", "Pepper", "Paddy"] },
+    { "name": "Kolar", "crops": ["Tomato", "Ragi", "Vegetables", "Mango", "Sericulture"] },
+    { "name": "Koppal", "crops": ["Cotton", "Paddy", "Jowar", "Groundnut"] },
+    { "name": "Mandya", "crops": ["Sugarcane", "Paddy", "Ragi", "Maize"] },
+    { "name": "Mysuru", "crops": ["Sugarcane", "Turmeric", "Paddy", "Coconut"] },
+    { "name": "Raichur", "crops": ["Cotton", "Paddy", "Groundnut", "Sunflower"] },
+    { "name": "Ramanagara", "crops": ["Ragi", "Sericulture", "Coconut"] },
+    { "name": "Shivamogga", "crops": ["Arecanut", "Paddy", "Pepper", "Maize"] },
+    { "name": "Tumakuru", "crops": ["Ragi", "Groundnut", "Millets", "Coconut"] },
+    { "name": "Udupi", "crops": ["Arecanut", "Coconut", "Paddy", "Banana", "Vegetables"] },
+    { "name": "Uttara Kannada", "crops": ["Arecanut", "Coconut", "Pepper", "Paddy"] },
+    { "name": "Vijayapura", "crops": ["Grapes", "Pomegranate", "Jowar", "Turmeric"] },
+    { "name": "Yadgir", "crops": ["Paddy", "Red Gram", "Cotton", "Maize"] }
+  ],
+
+  "crops": [
+    {
+      "name": "Ragi",
+      "localNames": { "kn": "ರಾಗಿ" },
+      "districts": ["Bengaluru Rural", "Bengaluru Urban", "Tumakuru", "Kolar", "Mandya"],
+      "currentPrice": 1800,
+      "demandIndex": 72,
+      "forecast": [
+        { "year": 2023, "demandIndex": 72 },
+        { "year": 2024, "demandIndex": 75 },
+        { "year": 2025, "demandIndex": 78 },
+        { "year": 2026, "demandIndex": 83 }
+      ],
+      "quickStats": { "yieldPotential": "High", "priceVolatility": "Moderate" },
+      "seasonalData": { "bestPlanting": "June–August", "harvest": "Oct–Nov" },
+      "climateSupply": { "weatherImpact": "Moderate", "storage": "Normal" },
+      "riskOpportunity": { "risk": "Monsoon variability", "opportunity": "Export demand" },
+      "recommendations": ["Use improved seed varieties", "Stagger planting time"]
+    },
+
+    {
+      "name": "Sugarcane",
+      "localNames": { "kn": "ಕಬ್ಬು" },
+      "districts": ["Mandya", "Belagavi", "Bagalkote", "Mysuru", "Bidar"],
+      "currentPrice": 3400,
+      "demandIndex": 85,
+      "forecast": [
+        { "year": 2023, "demandIndex": 85 },
+        { "year": 2024, "demandIndex": 88 },
+        { "year": 2025, "demandIndex": 92 }
+      ],
+      "quickStats": { "yieldPotential": "Very High", "priceVolatility": "Low" },
+      "seasonalData": { "bestPlanting": "Oct–Dec", "harvest": "12–18 months" },
+      "climateSupply": { "weatherImpact": "Low", "storage": "Active" },
+      "riskOpportunity": { "risk": "Water dependency", "opportunity": "High demand from sugar mills" },
+      "recommendations": ["Adopt drip irrigation", "Use high-yield varieties"]
+    },
+
+    {
+      "name": "Coffee",
+      "localNames": { "kn": "ಕಾಫಿ" },
+      "districts": ["Kodagu", "Chikkamagaluru", "Hassan"],
+      "currentPrice": 9000,
+      "demandIndex": 78,
+      "forecast": [
+        { "year": 2023, "demandIndex": 78 },
+        { "year": 2024, "demandIndex": 82 },
+        { "year": 2025, "demandIndex": 89 }
+      ],
+      "quickStats": { "yieldPotential": "High", "priceVolatility": "High" },
+      "seasonalData": { "bestPlanting": "June–July", "harvest": "Nov–Jan" },
+      "climateSupply": { "weatherImpact": "High", "transport": "Difficult in hilly terrain" },
+      "riskOpportunity": { "risk": "Rainfall fluctuations", "opportunity": "Premium international markets" },
+      "recommendations": ["Shade management", "Integrated pest management"]
+    }
+  ]
+}

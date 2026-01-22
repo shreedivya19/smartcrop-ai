@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CropAI Loader */
+.loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #00a65130; /* light green */
+  border-top-color: #00a651; /* CropAI green */
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@layer utilities {
+  /* slow spin used for logo (Tailwind's animate-spin is fast) */
+  .animate-spin-slow {
+    animation: spin 3.6s linear infinite;
+  }
+
+  /* loading bar keyframes */
+  .loading-bar {
+    animation: load 2s ease-in-out infinite;
+    width: 0%;
+  }
+
+  @keyframes load {
+    0% { width: 0%; }
+    50% { width: 72%; }
+    100% { width: 0%; }
+  }
+}
+/* ================================
+   CropAI Chatbot Floating Styling
+   ================================ */
+
+#cropai-chatbot {
+  position: fixed !important;
+  bottom: 22px !important;
+  right: 22px !important;
+
+  z-index: 9999 !important;
+
+  /* Make the bubble look modern */
+  border-radius: 50% !important;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18) !important;
+
+  /* Smooth animation */
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+#cropai-chatbot:hover {
+  transform: scale(1.07);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#cropai-chatbot {
+  animation: pulse 2.8s infinite ease-in-out;
+}
+
+.pulse {
+  animation: pulse 1.6s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+/* Simple fade-up animation for wizard card */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.35s ease-out;
+}

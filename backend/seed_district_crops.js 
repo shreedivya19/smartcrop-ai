@@ -1,0 +1,239 @@
+// backend/seed_district_crops.js
+
+require("dotenv").config();
+const mongoose = require("mongoose");
+const DistrictCrop = require("./models/districtCrop");
+
+const districtCrops = [
+  {
+    district: "Bagalkot",
+    crops: [
+      "Jowar", "Maize", "Wheat", "Peanut", "Sunflower",
+      "Green gram", "Red gram", "Bengal gram",
+      "Sugarcane", "Cotton", "Sapota", "Pomegranate",
+      "Banana", "Grape", "Lime", "Papaya"
+    ],
+  },
+  {
+    district: "Ballari",
+    crops: ["Cotton", "Millet", "Peanuts", "Rice", "Sunflower", "Cereals"],
+  },
+  {
+    district: "Belagavi",
+    crops: [
+      "Maize", "Soybean", "Paddy", "Cotton", "Jowar", "Wheat", "Millet",
+      "Gram", "Sorghum", "Groundnut", "Sunflower", "Sugarcane", "Tobacco"
+    ],
+  },
+  {
+    district: "Bengaluru Rural",
+    crops: ["Silk", "Rice", "Peanuts", "Sugarcane", "Castor", "Grape", "Mulberry"],
+  },
+  {
+    district: "Bengaluru Urban",
+    crops: [
+      "Rice", "Corn", "Pulses", "Oilseeds", "Sugarcane",
+      "Cashew", "Cardamom", "Chillies"
+    ],
+  },
+  {
+    district: "Bidar",
+    crops: [
+      "Jowar", "Green gram", "Bengal gram", "Black gram",
+      "Paddy", "Peanut", "Wheat", "Red gram", "Sugarcane", "Chilli"
+    ],
+  },
+  {
+    district: "Chamarajanagar",
+    crops: [
+      "Millet", "Corn", "Paddy", "Cotton", "Sugarcane",
+      "Turmeric", "Tobacco"
+    ],
+  },
+  {
+    district: "Chikkaballapur",
+    crops: [
+      "Mango", "Grape", "Pomegranate", "Sapota", "Guava",
+      "Papaya", "Banana", "Lemon",
+      "Ragi", "Maize", "Pulses", "Oilseeds",
+      "Flowers", "Vegetables"
+    ],
+  },
+  {
+    district: "Chikkamagaluru",
+    crops: [
+      "Rice", "Ragi", "Jowar", "Maize", "Minor millet",
+      "Red Gram", "Horse Gram", "Green Gram",
+      "Black gram", "Bengal gram",
+      "Peanuts", "Sesame", "Sunflower", "Castor",
+      "Sugarcane", "Cotton", "Tobacco", "Coffee"
+    ],
+  },
+  {
+    district: "Chitradurga",
+    crops: [
+      "Finger Millet", "Maize", "Pigeonpea", "Peanut",
+      "Cotton", "Onion", "Coconut", "Banana", "Arecanut", "Millet"
+    ],
+  },
+  {
+    district: "Dakshina Kannada",
+    crops: [
+      "Arecanut", "Coconut", "Pepper", "Cashew", "Banana",
+      "Vegetables", "Jasmine", "Paddy",
+      "Green gram", "Black gram", "Horse gram"
+    ],
+  },
+  {
+    district: "Davangere",
+    crops: ["Sugarcane", "Rice", "Maize", "Fruits", "Vegetables"],
+  },
+  {
+    district: "Dharwad",
+    crops: [
+      "Jowar", "Wheat", "Bengal gram", "Green gram",
+      "Black gram", "Tur Dal", "Cashew"
+    ],
+  },
+  {
+    district: "Gadag",
+    crops: [
+      "Wheat", "Maize", "Bengal gram", "Green gram",
+      "Groundnut", "Sunflower", "Sugarcane", "Cotton",
+      "Mango", "Sapota", "Banana", "Grapes", "Pomegranate",
+      "Tomato", "Onion", "Brinjal", "Chilli",
+      "Coconut", "Palm", "Amla", "Ashwagandha", "Lemongrass"
+    ],
+  },
+  {
+    district: "Hassan",
+    crops: ["Coffee", "Black Pepper", "Potatoes", "Paddy", "Sugarcane"],
+  },
+  {
+    district: "Haveri",
+    crops: [
+      "Millet", "Maize", "Cotton", "Chilli", "Paddy",
+      "Ragi", "Pulses", "Peanuts", "Horse gram",
+      "Sugarcane", "Sunflower"
+    ],
+  },
+  {
+    district: "Kalaburagi",
+    crops: ["Jowar", "Groundnut", "Paddy", "Pulses"],
+  },
+  {
+    district: "Kodagu",
+    crops: ["Paddy", "Coffee", "Pepper"],
+  },
+  {
+    district: "Kolar",
+    crops: [
+      "Finger Millet", "Groundnut", "Pulses", "Paddy",
+      "Mulberry", "Sugarcane", "Potato",
+      "Mango", "Grapes"
+    ],
+  },
+  {
+    district: "Koppal",
+    crops: [
+      "Jowar", "Bajra", "Wheat", "Maize", "Paddy",
+      "Horse Gram", "Green Gram", "Cowpeas",
+      "Groundnut", "Sesame", "Cotton", "Niger seeds"
+    ],
+  },
+  {
+    district: "Mandya",
+    crops: [
+      "Ragi", "Rice", "Sugarcane",
+      "Horse gram", "Tur", "Cowpea", "Green Gram", "Black Gram",
+      "Peanuts", "Sesame"
+    ],
+  },
+  {
+    district: "Mysuru",
+    crops: [
+      "Cotton", "Grams", "Peanut", "Millet", "Maize", "Ragi",
+      "Rice", "Sugarcane", "Sunflower", "Tur", "Tobacco",
+      "Coffee", "Cashew", "Potato", "Orange", "Coconut"
+    ],
+  },
+  {
+    district: "Raichur",
+    crops: [
+      "Paddy", "Jowar", "Maize", "Cotton", "Ground Nut",
+      "Sugarcane", "Wheat", "Sunflower"
+    ],
+  },
+  {
+    district: "Ramanagara",
+    crops: [
+      "Mango", "Coconut", "Banana", "Papaya", "Arecanut",
+      "Sapota", "Pomegranate", "Tomato", "Eggplant", "Pepper",
+      "Aster", "Jasmine", "Chrysanthemum"
+    ],
+  },
+  {
+    district: "Shivamogga",
+    crops: [
+      "Paddy", "Arecanut", "Cotton", "Maize", "Oilseeds",
+      "Cashew", "Pepper", "Chilli", "Ginger", "Ragi",
+      "Banana", "Mango", "Pineapple", "Vegetables",
+      "Flowers", "Aromatic crops"
+    ],
+  },
+  {
+    district: "Tumakuru",
+    crops: [
+      "Coconut", "Arecanut", "Banana", "Mango", "Sapota",
+      "Pomegranate", "Tomato", "Eggplant", "Pepper", "Flowers"
+    ],
+  },
+  {
+    district: "Udupi",
+    crops: [
+      "Coconut", "Arecanut", "Cashew", "Rubber", "Pepper",
+      "Ginger", "Turmeric", "Mango", "Pineapple", "Sapota",
+      "Banana", "Vegetables", "Flowers", "Aromatic crops"
+    ],
+  },
+  {
+    district: "Uttara Kannada",
+    crops: ["Cashew", "Pineapple", "Coconut", "Vanilla", "Forest crops"],
+  },
+  {
+    district: "Vijayanagara",
+    crops: [
+      "Rice", "Wheat", "Ragi", "Cotton", "Sugarcane",
+      "Pulses", "Coconut", "Areca", "Betel"
+    ],
+  },
+  {
+    district: "Vijayapura",
+    crops: ["Jowar", "Sunflower", "Saffron"],
+  },
+  {
+    district: "Yadgir",
+    crops: ["Millet", "Red gram", "Sunflower", "Groundnut"],
+  },
+];
+
+(async () => {
+  try {
+    await mongoose.connect(process.env.MONGO_URI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+
+    console.log("✅ Connected to Mongo for district crops seeding");
+
+    await DistrictCrop.deleteMany({});
+    await DistrictCrop.insertMany(districtCrops);
+
+    console.log("🌾 District crops seeded successfully!");
+    await mongoose.disconnect();
+    process.exit(0);
+  } catch (err) {
+    console.error("❌ Seeding error:", err);
+    process.exit(1);
+  }
+})();

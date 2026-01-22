@@ -1,0 +1,56 @@
+:root{
+  --sc-green:#2e7d32; /* primary */
+  --sc-green-700:#1e6b26;
+  --sc-green-600:#1b5e20;
+  --sc-cream:#f4fff3;
+  --sc-bg:#f6faf7;
+  --sc-text:#172b1a;
+  --sc-muted:#6b7c6e;
+  --sc-radius:14px;
+  --sc-radius-sm:10px;
+  --sc-shadow:0 10px 24px rgba(0,0,0,0.08);
+}
+
+/* Typography */
+body{background:var(--sc-bg);color:var(--sc-text);-webkit-font-smoothing:antialiased;}
+h1,h2,h3,h4,h5{font-weight:700}
+.lead{color:rgba(255,255,255,0.85)}
+
+/* Navigation */
+.sc-nav{background:var(--sc-green-600)}
+
+/* Hero */
+.sc-hero{background:linear-gradient(135deg,var(--sc-green-700),var(--sc-green));color:#fff}
+.sc-card{border:0;border-radius:var(--sc-radius);box-shadow:var(--sc-shadow)}
+.sc-card .form-label{font-weight:600}
+.form-control{border-radius:var(--sc-radius-sm)}
+
+/* Search */
+.sc-search{max-width:720px;background:#fff;border-radius:40px;overflow:hidden;box-shadow:var(--sc-shadow)}
+.sc-search-input{border:0;border-right:1px solid #e6eee8;border-radius:0;padding:14px 18px}
+.sc-search-input:focus{box-shadow:none}
+.sc-search-btn{border-radius:0 40px 40px 0;padding:0 24px;font-weight:600}
+
+/* Stats */
+.sc-stat{background:rgba(255,255,255,0.6);border-radius:16px;padding:18px}
+.sc-badge{width:56px;height:56px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;margin-bottom:10px;font-size:22px}
+.sc-badge-blue{background:#e8f0ff;color:#3b82f6}
+.sc-badge-green{background:#e7f6ea;color:#16a34a}
+.sc-badge-purple{background:#efe7fb;color:#8b5cf6}
+.sc-badge-orange{background:#fff0e6;color:#f97316}
+.sc-stat-value{font-size:28px;font-weight:800}
+.sc-stat-label{color:var(--sc-muted);font-size:14px}
+
+/* Buttons */
+.btn-success{background:var(--sc-green);border-color:var(--sc-green);border-radius:var(--sc-radius-sm)}
+.btn-success:hover{background:var(--sc-green-700);border-color:var(--sc-green-700)}
+.btn-outline-success{color:var(--sc-green);border-color:var(--sc-green);border-radius:var(--sc-radius-sm)}
+.btn-outline-success:hover{background:var(--sc-green);border-color:var(--sc-green)}
+
+/* Cards & lists */
+.card{border-radius:var(--sc-radius);border:0;box-shadow:var(--sc-shadow)}
+.list-group-item{border:0;border-bottom:1px solid #eef2ef}
+.list-group-item:last-child{border-bottom:0}
+
+/* Footer */
+.sc-footer{background:var(--sc-green-600)}
